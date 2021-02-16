@@ -1,0 +1,68 @@
+.form-div{
+    width: 75%;
+    text-align: center;
+}
+.search-div img {
+    position: relative;
+    left: 35px;
+}
+
+#selected-meal-div{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 15px;
+    
+}
+
+#selected-meal-div img{
+    width: 100%;
+    height: 80%;
+    margin-bottom: 7%;
+}
+
+#selected-meal-div > div{
+    border-radius: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+#selected-meal-div > div > p{
+    display: none;
+}
+
+#meal-details-div > div{
+    /* border: 1px solid black; */
+    width: 350px;
+    margin: auto;
+}
+
+#meal-details-div img{
+    height: 200px;
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+#meal-details-div > div > p {
+    margin: 0;
+    /* padding-left: 10px; */
+}
+
+.title{
+    float: left;
+}
+.nav-items{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.nav-div{
+    width: 75%;
+}
+.nav-div a{
+    display: inline-block;
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+}
